@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your theme here.
+        <item name="colorPrimary">@color/common_google_signin_btn_text_light</item>
+        <item name="colorPrimaryDark">@color/common_google_signin_btn_text_dark_focused</item>
+        <item name="colorAccent">@color/colorAccent</item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+<!--
+    <style name="GoodMorningSunshine" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimaryDark">@color/primary_dark_material_light</item>
+        <item name="android:colorAccent">@color/accent_material_light</item>
+        <item name="android:textColorSecondary">?android:attr/colorAccent</item>
+        <item name="android:statusBarColor">?android:attr/colorControlActivated</item>
+        <item name="android:navigationBarColor">@color/vi</item>
+    </style>-->
+
+</resources>

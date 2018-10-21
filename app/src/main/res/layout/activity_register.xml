@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_gravity="center_horizontal"
+android:orientation="vertical"
+tools:context=".Register">
+
+<ImageView
+    app:srcCompat="@drawable/logo1"
+    android:id="@+id/imageView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+     />
+
+<TextView
+    android:id="@+id/text_view_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:paddingTop="16dp"
+    android:text="Register"
+    android:textStyle="bold"
+    android:textSize="24sp"
+    app:fontFamily="sans-serif" />
+
+<EditText
+    android:id="@+id/editText2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:textSize="17sp"
+    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+    android:inputType="textPersonName"
+    android:hint="Username" />
+
+<EditText
+    android:id="@+id/editText3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:textSize="17sp"
+    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+    android:inputType="textPersonName"
+    android:hint="Register No" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email address"
+        android:textSize="17sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="Password"
+        android:hint="Password"
+        android:textSize="17sp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Cancel" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:text="Submit" />
+</LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1003756244470",
+    "firebase_url": "https://eurekyeah.firebaseio.com",
+    "project_id": "eurekyeah",
+    "storage_bucket": "eurekyeah.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003756244470:android:276d18450d7663ed",
+        "android_client_info": {
+          "package_name": "com.vit.mmsb.eureka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1003756244470-h3l7qoqu1bdk7bcqvjmfp984j1vgv03v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vit.mmsb.eureka",
+            "certificate_hash": "78c4e1a9c37ab9658134c44e7707141b923750bb"
+          }
+        },
+        {
+          "client_id": "1003756244470-m155igjf2oc2ue6phbs9dbprtpale916.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgVYgWjn0wH2CNSWW0AOkTZ0U6QeMGU7w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1003756244470-m155igjf2oc2ue6phbs9dbprtpale916.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
