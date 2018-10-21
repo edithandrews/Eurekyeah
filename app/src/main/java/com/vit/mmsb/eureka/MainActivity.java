@@ -24,6 +24,13 @@ public class MainActivity extends AppCompatActivity {
         // Get the view from activity_main.xml
         FirebaseUser user = mAuth.getCurrentUser();
         Log.d(TAG, "After creating user\n");
+        if (user != null)
+        {
+            Intent myIntent = new Intent(MainActivity.this,
+                    Feed.class);
+            startActivity(myIntent);
+        }
+        else {
             setContentView(R.layout.activity_main);
 
             Log.d(TAG, "After setContentView\n");
@@ -49,5 +56,6 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(myIntent);
                 }
             });
+        }
 
 }}
